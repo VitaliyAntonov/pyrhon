@@ -1,6 +1,17 @@
 
 
 
+class ListHelp:
+    """ Основные методы работы со списками"""
+
+    def __init__(self):
+        pass
+
+
+
+
+
+
 
 if __name__ == '__main__':
 
@@ -18,6 +29,9 @@ if __name__ == '__main__':
     # Указание количества итераций
     for num in range(5):
         print('Head First Rocks!')
+
+    print('класс '+ListHelp.__name__ + ': ' + ListHelp.__doc__)
+
 
 
 
